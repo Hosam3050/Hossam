@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(74, 74, 255);
+  
+}
+.container{
+    height: 80%;
+    /* background: rgba(255,255,255,0.1); */
+    overflow: hidden;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding:20px 0;
+
+}
+nav .logo{
+ color: white;
+text-decoration: none;
+font-size: 40px;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-weight: 700; */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    color: white;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+.image{
+    margin:  0 0 0 -60px;
+}
